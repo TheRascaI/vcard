@@ -11,7 +11,6 @@ import Button from './components/Button';
 import Spacer from './components/Spacer';
 import InnerRow from './components/InnerRow';
 import TextCol from './components/TextCol';
-import Contact from './components/Contact';
 import vcard from './vcard.vcf';
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -62,7 +61,7 @@ function App() {
 
 {/* here's where the header ends & the content grows */}
 <ScrollAnimation duration={2} animateIn="fadeIn">
-        <Row height={20}><Col className="zusatz" size={1}>Designed with ❤️ Based in Saarbrücken</Col></Row>
+        <Row height={20}><Col className="zusatz" size={1}>Designed with <span role="img" aria-label="jsx-a11y/accessible-emoji">❤️</span> Based in Saarbrücken</Col></Row>
         </ScrollAnimation>
 {/* Firmbrand */}
 <ScrollAnimation duration={2} animateIn="fadeIn">
