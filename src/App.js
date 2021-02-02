@@ -22,7 +22,7 @@ function App() {
     <Grid>
     <Row>
 
-      <Col size={2} collapse="xs"></Col>
+      <Col size={2}></Col>
 
   <Col className="main_col" size={4}>
 
@@ -164,11 +164,11 @@ function App() {
 
 
         <Spacer height={10} />
-        <InnerRow><Col className="minilogo" size={1}><img className="minilogo" width="10%" src={mini_logo} alt="bildmarke visio" /></Col></InnerRow>
+        <InnerRow><Col className="minilogo" size={1}><img className="minilogo" width="18%" src={mini_logo} alt="bildmarke visio" /></Col></InnerRow>
 
   </Col>
 
-      <Col size={2} collapse="xs"></Col>
+      <Col size={2}></Col>
 </Row>
 </Grid>
   );
