@@ -101,7 +101,7 @@ function App() {
           <Col size={1}><i className="icon-phone icon"/></Col>
           <TextCol size={6}>
             <Row>
-              <Col size={1}><a className="button_link" href="tel:+4917647696673">+49 176 47 68 66 73</a></Col>
+              <Col size={1}><a className="button_link" href="tel:+4917647686673">+49 176 47 68 66 73</a></Col>
             </Row>
             <Row>
               <Col size={1}>Phone</Col>
